@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de Boda - Ale & Pablo</title>
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💍</text></svg>">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Ale & Pablo</h1>
+            <div class="subtitle">Nos casamos</div>
+            <div class="date">15 de Enero, 2026</div>
+            
+            <!-- Countdown -->
+            <div class="countdown">
+                <div class="countdown-item">
+                    <div class="countdown-number" id="days">00</div>
+                    <div class="countdown-label">Días</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="hours">00</div>
+                    <div class="countdown-label">Horas</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="minutes">00</div>
+                    <div class="countdown-label">Minutos</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="seconds">00</div>
+                    <div class="countdown-label">Segundos</div>
+                </div>
+            </div>
+            
+            <a href="#rsvp" class="btn">Confirmar Asistencia</a>
+        </div>
+    </section>
+
+    <!-- Detalles del Evento -->
+    <section class="section" id="details">
+        <div class="container">
+            <h2 class="section-title">Detalles del Evento</h2>
+            
+            <div class="event-details">
+                <div class="detail-card">
+                    <div class="detail-icon">
+                        <i class="fas fa-church"></i>
+                    </div>
+                    <h3>Ceremonia</h3>
+                    <p>16:30 horas</p>
+                    <p>Iglesia de San Miguel</p>
+                    <p>Calle Mayor, 123</p>
+                    <p>Madrid</p>
+                </div>
+                
+                <div class="detail-card">
+                    <div class="detail-icon">
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <h3>Recepción</h3>
+                    <p>19:00 horas</p>
+                    <p>Hacienda Los Olivos</p>
+                    <p>Carretera de la Sierra, km 12</p>
+                    <p>Madrid</p>
+                </div>
+                
+                <div class="detail-card">
+                    <div class="detail-icon">
+                        <i class="fas fa-vest"></i>
+                    </div>
+                    <h3>Dress Code</h3>
+                    <p>Elegante</p>
+                    <p>Tonos pastel</p>
+                    <p>Se sugiere evitar</p>
+                    <p>negro total</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa -->
+    <section class="section" id="location">
+        <div class="container">
+            <h2 class="section-title">Ubicación</h2>
+            <div class="map-container">
+                <!-- Mapa de Google embebido -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.454040417505!2d-3.7037887846040187!3d40.41999607936485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287e9c8d26e5%3A0x3b8e4a2c3c2f3d4e!2sPalacio%20Real%20de%20Madrid!5e0!3m2!1ses!2ses!4v1638379876543!5m2!1ses!2ses" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    title="Mapa de ubicación de la boda">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Nuestra Historia</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ana y Pablo 1" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ana y Pablo 2" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ana y Pablo 3" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ana y Pablo 4" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Form -->
+    <section class="section" id="rsvp">
+        <div class="container">
+            <h2 class="section-title">Confirma tu Asistencia</h2>
+            <div class="rsvp-form">
+                <form id="rsvpForm">
+                    
+                     <div class="form-group">
+                        <label>¿Asistirás? *</label>
+                        <div class="attendance-options">
+                            <label class="radio-option">
+                                <input type="radio" name="attendance" value="yes" required>
+                                <span>¡Con mucho gusto!</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="attendance" value="no" required>
+                                <span>Lamentablemente no podré</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="name">Nombre completo *</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo electrónico *</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="guests">Número de invitados *</label>
+                        <select id="guests" class="form-control" required>
+                            <option value="" disabled selected>Selecciona</option>
+                            <option value="1">1 persona (solo yo)</option>
+                            <option value="2">2 personas</option>
+                            <option value="3">3 personas</option>
+                            <option value="4">4 personas</option>
+                            <option value="5">5 o más personas</option>
+                        </select>
+                    </div>
+                    
+                   
+                    
+                    <div class="form-group">
+                        <label for="message">Mensaje para los novios (opcional)</label>
+                        <textarea id="message" class="form-control" rows="4" placeholder="Escribe un mensaje especial..."></textarea>
+                    </div>
+                    
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn">Enviar Confirmación</button>
+                    </div>
+                </form>
+                <div id="formMessage" class="form-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="footer-text">Con la ilusión de compartir este día especial con vosotros</p>
+            <p>A & Pablo</p>
+            <div class="contact-info">
+                <p>¿Preguntas? Contacta a nuestra wedding planner: María - 612 345 678</p>
+            </div>
+            <div class="social-section">
+                <p>#AleYPabloSeCasan</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
